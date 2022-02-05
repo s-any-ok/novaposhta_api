@@ -112,8 +112,8 @@ export default (() => {
 			return privateProps.get(this).additionalServiceGeneral;
 		}
 
-		get getStatusDocuments() {
-			return privateProps.get(this).getStatusDocuments;
+		get trackingDocument() {
+			return privateProps.get(this).trackingDocument;
 		}
 
 		get getPrivateProps() {

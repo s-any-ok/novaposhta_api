@@ -213,7 +213,7 @@ api.additionalServiceGeneral.checkPossibilityForRedirecting({ ... }).then((json)
 ```javascript
 const api = new NovaPoshta({ apiKey: '...' });
 
-api.getStatusDocuments.checkPossibilityForRedirecting({ ... }).then((json) => {
+api.trackingDocument.getStatusDocuments({ ... }).then((json) => {
     // do something
 });
 ```
